@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = {'Name': ['Alice', 'Bob'], 'Age': [25, 30]}
+data = {'Name': ['Alice', 'Bob'], 'Age': [26, 30]}
 df = pd.DataFrame(data)
 mean_age = (df['Age'].mean())
 
